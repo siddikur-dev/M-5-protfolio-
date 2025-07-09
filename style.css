@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.nav-name {
+
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* shared style */
+.bg-color {
+    background-color: #91c0d84b;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.Navbar {
+    justify-content: space-between;
+    padding: 0 3rem;
+    align-items: center;
+
+
+}
+.hero{
+    justify-content:space-between;
+    padding: 0 3rem;
+    align-items: center;
+
+
+}
+
+.container {}
+
+.black {
+    text-decoration: none;
+    padding-right: 2em;
+    gap: 20px;
+    color: black;
+}
+
+header {
+    background-color: #FCFCFC;
+    margin-bottom: 20px;
+    padding: 25px;
+    font-weight: bold;
+    border: 1px solid gainsboro;
+
+}
