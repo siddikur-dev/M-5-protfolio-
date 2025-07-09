@@ -35,6 +35,48 @@
 
 }
 
+    .contact-form {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      font-size: 16px;
+      resize: none;
+    }
+
+    .contact-form button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px 20px;
+      background-color: #1f274f;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background-color: #151b3a;
+    }
+
+    .contact-form button svg {
+      width: 18px;
+      height: 18px;
+      fill: white;
+    }
+
 .container {}
 
 .black {
