@@ -103,3 +103,10 @@ header {
     border: 1px solid gainsboro;
 
 }
+
+
+@media screen and(max-width:578px) {
+    .visibility{
+        /* visibility: hidden; */
+    }
+}
