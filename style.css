@@ -103,6 +103,11 @@ header {
     border: 1px solid gainsboro;
 
 }
+.footer-container{
+    max-width: 1540px;
+    margin: 0px auto;
+    left: 40px;
+}
 
 
 
@@ -171,6 +176,16 @@ header {
         text-align: center;
         gap: 20px;
     }
+    .responsive{
+        color: white;
+    }
+    .footer-container{
+        position: absolute;
+        top: 130px;
+        
+        left: 
+        40px;
+    }
 }
 
 /* Medium devices (tablets, 768px - 1024px) */
@@ -216,4 +231,10 @@ header {
     .hidden{
         visibility: hidden;
     }
+
+    .container{
+         position: absolute; top: 170px;
+    }
+    
+    
 }
